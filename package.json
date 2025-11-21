@@ -1,0 +1,20 @@
+{
+  "name": "func_godot_docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "export": "press-export-pdf export ./docs"
+  },
+  "keywords": [],
+  "author": "",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "puppeteer": "^24.31.0",
+    "vitepress": "2.0.0-alpha.14",
+    "vitepress-export-pdf": "^1.0.0"
+  }
+}
